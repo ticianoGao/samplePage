@@ -1,0 +1,35 @@
+/* Your Styles Here */
+body {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh; /* Ensure the body takes up the full viewport height */
+    margin: 0; /* Remove default body margins */
+}
+
+
+.title {
+    text-align: center;
+    position: center;
+}
+
+.card-container {
+    padding: 1.5rem;
+    width: 20rem;
+    background: white;
+    border-radius: 2rem;
+    border: 0.1rem solid rgb(163, 163, 163);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pic-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
